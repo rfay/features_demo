@@ -1,0 +1,5 @@
+; $Id$
+name = Counter
+description = Adds a counter tab to node pages
+core = 6.x
+package = Example

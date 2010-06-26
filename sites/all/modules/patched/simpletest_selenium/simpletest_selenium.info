@@ -1,0 +1,8 @@
+; $Id: simpletest_selenium.info,v 1.1 2010/03/02 23:29:31 boombatower Exp $
+name = SimpleTest Selenium
+description = Convert Selenium IDE tests to Drupal SimpleTest format.
+package = Development
+core = 6.x
+files[] = simpletest_selenium.convert.inc
+files[] = simpletest_selenium.module
+files[] = simpletest_selenium.test

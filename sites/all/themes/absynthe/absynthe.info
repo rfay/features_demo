@@ -1,0 +1,24 @@
+; $Id: absynthe.info,v 1.2 2010/05/01 01:13:06 hoainam12k Exp $
+name = absynthe
+description = Convert from Wordpress theme.
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+
+; Information added by drupal.org packaging script on 2009-01-14
+version = "6.9"
+project = "drupal"
+datestamp = "1231976413"
+
+regions[right] = right
+regions[search_box] = search_box
+regions[footer_left] = footer_left
+regions[footer_right] = footer_right
+; Information added by drupal.org packaging script on 2010-05-19
+version = "6.x-1.7"
+core = "6.x"
+project = "absynthe"
+datestamp = "1274274902"
+

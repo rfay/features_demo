@@ -1,0 +1,7 @@
+backup
+sites/default/settings.php
+sites/default/files
+sites/msl*
+.settings
+.project
+.buildpath

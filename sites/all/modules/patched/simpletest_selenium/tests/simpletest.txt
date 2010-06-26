@@ -1,0 +1,41 @@
+<?php
+// $Id: simpletest.txt,v 1.1 2010/03/02 23:29:31 boombatower Exp $
+
+/**
+ * @file
+ */
+
+class Example extends DrupalWebTestCase {
+
+  public static function getInfo() {
+    return array(
+      'name' => 'Example',
+      'description' => '...',
+      'group' => 'Example',
+    );
+  }
+
+  protected function testExample() {
+    $this->drupalGet('');
+    
+    $this->clickLink(t('Privacy'));
+    $this->assertText(t('Transparency and Choice'));
+    $this->assertText(t('Transparency and Choice'));
+    $this->assertTitle(t('Google Privacy Center'));
+    $this->assertTrue($this->xpath("//div[@id='intro']/h2"));
+    $this->assertEqual(t('Transparency and Choice'), trim(html_entity_decode(strip_tags($this->xpath("//div[@id='intro']/h2")))));
+    $this->assertText(t('Transparency and Choice'));
+    $this->assertTitle(t('Google Privacy Center'));
+    $this->assertEqual(t('Transparency and Choice'), trim(html_entity_decode(strip_tags($this->xpath("//div[@id='intro']/h2")))));
+    $this->assertTrue($this->xpath("//div[@id='intro']/h2"));
+    
+    $this->clickLink(t('privacy principles'));
+    
+    $edit = array (
+      'q' => 'search',
+    );
+    $this->drupalPost(NULL, $edit, t('submit'));
+    
+    $this->clickLink(t('2'));
+  }
+}
