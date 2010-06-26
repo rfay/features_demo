@@ -28,7 +28,7 @@ function _basic_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'The fancy DCCO Features Demo Site';
+  $strongarm->value = 'The fancy DCCO Features Demo Site (v2)';
 
   $export['site_name'] = $strongarm;
   $strongarm = new stdClass;
