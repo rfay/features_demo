@@ -1,6 +1,6 @@
-; $Id: batch_example.info,v 1.1.2.3 2009/10/04 01:41:42 davereid Exp $
-name = Batch example
-description = An example outlining how a module can define batch operations.
+; $Id: menu_example.info,v 1.1.2.1 2010/05/28 03:17:37 rfay Exp $
+name = Menu example
+description = An example of advanced uses of the menu APIs.
 package = Example modules
 version = VERSION
 core = 6.x

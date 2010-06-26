@@ -3,9 +3,9 @@ name = E-mail Example
 description = Demonstrate Drupal's e-mail APIs.
 package = Example modules
 core = 6.x
-; Information added by drupal.org packaging script on 2010-05-21
+; Information added by drupal.org packaging script on 2010-06-06
 version = "6.x-1.x-dev"
 core = "6.x"
 project = "examples"
-datestamp = "1274400349"
+datestamp = "1275825954"
 
