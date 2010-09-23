@@ -35,7 +35,7 @@ function _basic_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_mission';
-  $strongarm->value = '';
+  $strongarm->value = 'Stay the course CODE FREEZE! Get it out. NO NEW FEATURES.';
 
   $export['site_mission'] = $strongarm;
   return $export;
